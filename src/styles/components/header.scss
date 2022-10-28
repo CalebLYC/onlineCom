@@ -1,0 +1,51 @@
+@import 'variables.scss';
+
+nav{
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+   
+    a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px;
+      font-size: 14pt;
+    }
+     .logo{
+      font-size: 22pt;
+      color: $second;
+    }
+    
+     ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+     ul li{
+      font-size: 14pt;
+      display: inline-block;
+      padding: 10px;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+    }
+  
+    .nav-scroller{
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-scrolling: touch;
+       -moz-overflow-scrolling: touch;
+
+       position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+  }

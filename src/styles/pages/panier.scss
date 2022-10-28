@@ -1,0 +1,39 @@
+@import '../components/variables.scss';
+h3{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 300rem;
+    color: $primary;
+    margin: 5px;
+}
+@import '../components/products.scss';
+.cardProductPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .but{
+        margin: 25px;
+        padding: 15px;
+        border-radius: 5px;
+        background: $second;
+        color: $primary;
+        cursor: pointer;
+        border: none;font-size: 12pt;
+        transition: .3s;
+        &:hover{
+            font-size: 13pt;
+            transform: scale(1.03);
+            transition: .3s;
+        }
+    }
+}
+.pricePara{
+    font-size: 14pt;
+    color: $second;
+    margin: 25px;
+    .price{
+        color: $primary;
+    }
+}

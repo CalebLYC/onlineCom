@@ -1,0 +1,56 @@
+@import '../components/variables.scss';
+@import '../components/contacts.scss';
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-logo{
+    color: $second;
+    font-size: 15pt;
+    font-size: 100;
+    font-style: oblique;
+}
+
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    h2{
+        font-size: 17pt;
+        font-weight: 400;
+        color: $primary;
+    }
+}
+.containBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 400px;
+        height: 400px;
+        border-radius: 5px;
+        margin: 10px;
+        @media screen and (max-width: 768px){
+            width: 200px;
+            height: 200px;
+        }
+    }
+    p{
+        font-size: 14pt;
+        margin: 10px;
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+.subscribe{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}

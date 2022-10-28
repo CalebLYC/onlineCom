@@ -1,0 +1,49 @@
+@import '../components/variables.scss';
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .productImage img{
+        width: 600px;
+        height: 600px;
+        margin: 10px;
+        @media screen and (max-width: 768px){
+            width: 300px;
+            height: 300px;
+        }
+    }
+    .productDescription{
+        font-size: 15pt;
+        margin: 20px;
+        padding: 5px;
+    }
+    .productName{
+        font-size: 18pt;
+        color: $primary;
+    }
+    .endProductCard{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 15px;
+        padding: 10px;
+        button{
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            background: $primary;
+            color: $second;
+            cursor: pointer;
+            border: none;
+            font-size: 12pt;
+        transition: .3s;
+        &:hover{
+            font-size: 13pt;
+            transform: scale(1.03);
+            transition: .3s;
+        }
+        }
+    }
+}

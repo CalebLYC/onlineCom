@@ -1,0 +1,100 @@
+@import 'variables.scss';
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+    background-color: $cardBg;
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+    a{
+        text-decoration: none;
+    }
+    div{
+        width: 100%;
+        padding: 10px;
+    }
+     div ul{
+        padding: 3px;
+    }
+     h3{
+        font-size: 12pt;
+        font-weight: 700;
+        color: $primary;
+    }
+     li{
+        padding: 5px;
+    }
+     li img{
+        margin: 2px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-navigation{
+        li a{
+            color: $primary;
+        }
+    }
+
+    .but{
+        margin: 25px;
+        padding: 15px;
+        border-radius: 5px;
+        background: $second;
+        color: $primary;
+        cursor: pointer;
+        border: none;font-size: 12pt;
+        transition: .3s;
+        a{
+            color: $primary;
+        }
+        &:hover{
+            font-size: 13pt;
+            transform: scale(1.03);
+            transition: .3s;
+        }
+    }
+    
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form input[type=text]{
+        width: 50px;
+    }
+    form button{
+        padding: 0;
+        background-color: $cardBg;
+        color: $cardBg;
+        text-align: center;
+        transition: .5s;
+        border: none;
+    }
+    form button:hover{
+        transform: scale(1.03);
+        transition: .5s;
+    }
+    label{
+        font-size: 15pt;
+        font-weight: 200;
+        color: $primary;
+    }
+    form img{
+        width: 60px;
+        height: 60px;
+        color: $cardBg;
+        background-color: $cardBg;
+    }
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+    }
+}
+ 
+
+ 
