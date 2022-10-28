@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/onlineCom/static/css/main.1a85a439.css",
+    "main.js": "/onlineCom/static/js/main.202a92cb.js",
+    "static/media/IMG1.jpg": "/onlineCom/static/media/IMG1.f21ac3a184faa189c603.jpg",
+    "static/media/IMG7.jpg": "/onlineCom/static/media/IMG7.644328a9024c5554ccd9.jpg",
+    "static/media/IMG8.jpg": "/onlineCom/static/media/IMG8.e4884fb3a858ca74116c.jpg",
+    "static/media/JordanLV.png": "/onlineCom/static/media/JordanLV.d6f8593156a46269d704.png",
+    "static/media/IMG5.jpg": "/onlineCom/static/media/IMG5.a462c459e27dbe239e0c.jpg",
+    "static/media/Jordan1.png": "/onlineCom/static/media/Jordan1.1d92b7a8d423b94ebd66.png",
+    "static/media/hero-bg.jpg": "/onlineCom/static/media/hero-bg.d91dfe8908e9ffe6b10e.jpg",
+    "static/media/IMG4.jpg": "/onlineCom/static/media/IMG4.3e6c87a410e9a1ab1faf.jpg",
+    "static/media/AirMag.png": "/onlineCom/static/media/AirMag.759669ad49a38b1af368.png",
+    "static/media/IMG14.png": "/onlineCom/static/media/IMG14.31cb6a19248edc7d4084.png",
+    "static/media/whatsapp.png": "/onlineCom/static/media/whatsapp.979244c7a755c76df6f4.png",
+    "static/media/IMG13.png": "/onlineCom/static/media/IMG13.e36a2f818845fcbf701f.png",
+    "static/media/Runner.png": "/onlineCom/static/media/Runner.b4ee947279a3d3a5343e.png",
+    "static/media/IMG6.jpg": "/onlineCom/static/media/IMG6.2d6830fc8b84edb1c3c6.jpg",
+    "static/media/IMG3.jpg": "/onlineCom/static/media/IMG3.d08ff8d2df719a98cf26.jpg",
+    "static/media/IMG2.jpg": "/onlineCom/static/media/IMG2.15f862e2ce6e3a01d88b.jpg",
+    "static/media/IMG12.jpg": "/onlineCom/static/media/IMG12.b94a2a7c3eaebf6dd720.jpg",
+    "static/media/IMG9.jpg": "/onlineCom/static/media/IMG9.f3dc729f470dbea72bb1.jpg",
+    "static/media/cardImg1.jpg": "/onlineCom/static/media/cardImg1.49db89b02eb0cc1a27cb.jpg",
+    "static/media/instagram.png": "/onlineCom/static/media/instagram.1792ff30fb032c94685c.png",
+    "static/media/subscribe .png": "/onlineCom/static/media/subscribe .a210ab090d3523015771.png",
+    "static/media/linkedin.png": "/onlineCom/static/media/linkedin.1dd143a731afb245bf24.png",
+    "static/media/telephone.png": "/onlineCom/static/media/telephone.fb244201058d6b0c101c.png",
+    "static/media/gmail.png": "/onlineCom/static/media/gmail.a2f2146f929409405da0.png",
+    "static/media/facebook.png": "/onlineCom/static/media/facebook.4f037d961598aff2a0a4.png",
+    "index.html": "/onlineCom/index.html",
+    "main.1a85a439.css.map": "/onlineCom/static/css/main.1a85a439.css.map",
+    "main.202a92cb.js.map": "/onlineCom/static/js/main.202a92cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a85a439.css",
+    "static/js/main.202a92cb.js"
+  ]
+}
