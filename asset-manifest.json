@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/onlineCom/static/css/main.ca91cd46.css",
-    "main.js": "/onlineCom/static/js/main.202a92cb.js",
+    "main.css": "/onlineCom/static/css/main.bbd05462.css",
+    "main.js": "/onlineCom/static/js/main.70e7ea9d.js",
     "static/media/IMG1.jpg": "/onlineCom/static/media/IMG1.f21ac3a184faa189c603.jpg",
     "static/media/IMG7.jpg": "/onlineCom/static/media/IMG7.644328a9024c5554ccd9.jpg",
     "static/media/IMG8.jpg": "/onlineCom/static/media/IMG8.e4884fb3a858ca74116c.jpg",
@@ -28,11 +28,11 @@
     "static/media/gmail.png": "/onlineCom/static/media/gmail.a2f2146f929409405da0.png",
     "static/media/facebook.png": "/onlineCom/static/media/facebook.4f037d961598aff2a0a4.png",
     "index.html": "/onlineCom/index.html",
-    "main.ca91cd46.css.map": "/onlineCom/static/css/main.ca91cd46.css.map",
-    "main.202a92cb.js.map": "/onlineCom/static/js/main.202a92cb.js.map"
+    "main.bbd05462.css.map": "/onlineCom/static/css/main.bbd05462.css.map",
+    "main.70e7ea9d.js.map": "/onlineCom/static/js/main.70e7ea9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca91cd46.css",
-    "static/js/main.202a92cb.js"
+    "static/css/main.bbd05462.css",
+    "static/js/main.70e7ea9d.js"
   ]
 }
