@@ -22,6 +22,14 @@ nav{
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      width: 100%;
+      margin: 0;
+      background-color: $primary;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        z-index: 100;
+      }
     }
      ul li{
       font-size: 14pt;

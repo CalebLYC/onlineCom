@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-// import { Navigate } from 'react-router-dom';
 import { CardProductsContext } from '../contexts/CardProductsContext';
 
 function Product({ product }) {
@@ -19,7 +18,7 @@ function Product({ product }) {
 
     return (
         <div className="product" >
-            <Link to={`/product?id=${product.id}&src=${product.src}&name=${product.name}&description=${product.description}`}>
+            <Link to={`/product?id=${product.id}&src=${product.src}&name=${product.name}&description=${product.description}&isInCard=${isInCard}`}>
                 <img src={product.src} alt={product.name} width='400' height='400' className='image-thumbnails' />
             </Link>
             <p> Nom: {product.name}</p>

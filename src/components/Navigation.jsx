@@ -14,6 +14,7 @@ function Navigation() {
         <Layout>
             <Routes>
                 <Route path='/' element={<Home />} />
+                <Route path='/onlinecom' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/panier' element={<Panier />} />
                 <Route path='/product' element={<ProductPageConsummer />} />

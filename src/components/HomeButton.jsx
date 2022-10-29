@@ -3,7 +3,7 @@ import React from 'react';
 function HomeButton() {
     return (
         <div className="homeButton">
-            <a href="/#products" role="button"><button className='but'>Voir les produits</button></a>
+            <a href="/#products" role="button"><button className='consulBut'>Voir les produits</button></a>
             <div className="homeButtonContent">
                 <div className=" homeButtonCard">
                     <h4>Vêtements</h4>

@@ -30,10 +30,10 @@ function SignIn() {
                 <h1>Création de compte</h1>
                 <form action="" method="POST" onSubmit={handleSubmit(onSubmit)} name='form'>
                     <div className="txt_field">
-                        <input type="email" id='email' name="email" {...register("email", { required: true })} />
+                        <input type="email" id='mail' name="email" {...register("email", { required: true })} />
                         {errors.username && <span className='text-danger'>Ce champ est obligatoire</span>}
                         <span></span>
-                        <label htmlFor='email'>Email</label>
+                        <label htmlFor='mail'>Email</label>
                     </div>
                     <div className="txt_field">
                         <input type="text" id='username' name="username" {...register("username", { required: true })} />
